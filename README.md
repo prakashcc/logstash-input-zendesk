@@ -1,5 +1,8 @@
 # Logstash Input Plugin for Zendesk
 
+
+NOTE: We have since switched case systems and no longer have access to the Zendesk service.  This plugin is no longer being maintained.
+
 This input fetches data from Zendesk and generates Logstash events for indexing into Elasticsearch.
 It uses the official Zendesk ruby client api (https://github.com/zendesk/zendesk_api_client_rb).  
 Currently, the input supports organization, user, ticket, ticket comment and topic object types.  
